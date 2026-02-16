@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #232526, #414345);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.toolbar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5563c1;
+}
+
+.editor {
+  display: flex;
+  height: 80vh;
+}
+
+textarea {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  resize: none;
+}
+
+#preview {
+  width: 50%;
+  padding: 15px;
+  background: white;
+  color: black;
+  overflow-y: auto;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Markdown Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Markdown Editor 📝</h1>
+
+  <div class="toolbar">
+    <button onclick="insertMarkdown('**bold**')">Bold</button>
+    <button onclick="insertMarkdown('*italic*')">Italic</button>
+    <button onclick="insertMarkdown('# Heading')">Heading</button>
+    <button onclick="insertMarkdown('- List Item')">List</button>
+  </div>
+
+  <div class="editor">
+    <textarea id="markdownInput" placeholder="Write Markdown here..."></textarea>
+    <div id="preview"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
